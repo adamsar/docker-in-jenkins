@@ -22,6 +22,6 @@ VOLUME /var/lib/docker
 
 EXPOSE 2375
 COPY start.sh /start.sh
-RUN chmod +x /start/sh
+RUN chmod +x /start.sh
 
 ENTRYPOINT sh /start.sh
